@@ -1,0 +1,46 @@
+.usage-container{
+    margin-top: 72px;
+    color: #2f2e33;
+    margin-bottom: 72px;
+    /* font-family: inter; */
+ }
+ .usage-container p{
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .usage-container h1{
+    font-size: 60px;
+    font-weight: 700;
+ }
+ .usage-heading h1{
+    margin-bottom: 40px;
+    text-align: center;
+ }
+ .usage-heading p{
+    margin-bottom: 73px;
+    text-align: center;
+    padding-inline: 90px;
+ }
+ .usage-container svg{
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 32px;
+ }
+ .usage-items p{
+    margin-bottom: 85px;
+    padding-inline: 20px;
+    line-height: 2;
+    text-align: center;
+ }
+ .usage-button{
+    width: 377px;
+    height: 55px;
+    margin-inline: auto;
+    display: block;
+    background-color: #ff7220;
+    border: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    clip-path:polygon(10% -5%, 99% -19%, 87% 100%, 0% 100%);
+ }

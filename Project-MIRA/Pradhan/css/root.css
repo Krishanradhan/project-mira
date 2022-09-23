@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+@import 'header.css';
+@import 'blog-section-1.css';
+@import 'blog-section-2.css';
+@import 'usage-container.css';
+@import 'blog-section-3.css';
+@import 'unique-container.css';
+@import 'footer.css';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}

@@ -1,0 +1,219 @@
+footer{
+    position: relative;
+    height: 1200px;
+    font-family: inter;
+    isolation: isolate;
+}
+footer h1{
+    position: absolute;
+    left: 293px;
+    top: 160px;
+    z-index: 5;
+    font-weight: 800;
+    font-size: 80px;
+    color: #F8F8F8;
+    margin-inline-end: 24%;
+}
+footer h5{
+    position: absolute;
+    z-index: 5;
+    color: #F8F8F8;
+    left: 300px;
+    top: 390px;
+    font-size: 26px;
+    font-weight: 600;
+}
+.footerbutton{
+    position: absolute;
+    z-index: 5;
+    background-color: #FF7220;
+    color: #ffff;
+    left: 350px;
+    height: 55px;
+    font-weight: 700;
+    top: 470px;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    clip-path:polygon(10% -5%, 99% -19%, 87% 100%, 0% 100%);
+}
+footer img{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.footer-section-1{
+   display: flex;
+   height: 1200px;
+   position: relative;
+}
+.footer-column-1{ 
+   width: 50%;
+   background-color: #FF7220;
+   position: relative;
+}
+.footer-column-1 h2{
+    position: absolute;
+    bottom: 300px;
+    left: 288px;
+    font-size: 43px;
+    font-weight: 700;
+    color: #ffff;
+}
+.footer-column-1 p{
+    position: absolute;
+    bottom: 0;
+    bottom: 200px;
+    left: 288px;
+    margin-inline-end: 5%;
+    font-size: 26px;
+    font-weight: 500;
+    color: #ffff;
+}
+.footer-column-1 form{
+    position: absolute;
+    bottom: 100px;
+    left: 288px;
+}
+.footer-column-1 form input{
+    padding: 10px;
+    padding-left: 50px;
+    height: 55px;
+    font-weight: 500;
+    width: 434px;
+    border: none;
+    clip-path:polygon(10% 0%, 99% -19%, 88% 100%, 2% 100%);
+}
+.footer-column-1 form button{
+    height: 55px;
+    padding: 10px;
+    font-weight: 700;
+    width: 249px;
+    color: #F8F8F8;
+    border: none;
+    background-color: #2F2E33;
+    clip-path:polygon(14% 0%, 99% -15%, 79% 100%, 0% 100%);
+}
+.formbox{
+    position: relative;
+}
+.formbox button{
+    position: absolute;
+    top: 0;
+    left: 367px;
+}
+
+.footer-column-1 img{
+    width: 300px;
+    height: 300px;
+    margin-top: 98%;
+    opacity: 20%;
+    width: 304px;
+    height: 265px;
+}
+.footer-column-2{
+    width: 50%;
+    background-color: #F8F8F8;
+    position: relative;
+    font-family: inter;
+ }
+
+ .footer-column-2 h2{
+     position: absolute;
+     bottom: 207px;
+     left: 138px;
+     font-size: 60px;
+     font-weight: 700;
+     color: #2F2E33;
+     margin-inline-end: 236px;
+ }
+ .footer-column-2 button{
+    position: absolute;
+    bottom: 100px;
+    height: 55px;
+    font-weight: 600;
+    left: 138px;
+    background-color: #FF7220;
+    color: #fff;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    clip-path:polygon(10% -5%, 99% -19%, 87% 100%, 0% 100%);
+ }
+ .footer-column-2 img{
+   position: absolute;
+   top: 822px;
+   left: 760px;
+   width: 200px;
+   height: 379px
+ }
+
+ .footer-bottom{
+    background-color: #2F2E33;
+    font-family: inter;
+    color: #ffff;
+    height: 480px;
+    font-family: inter;
+    color: #fff;
+ }
+
+ .footer-logo{
+    width: 216px;
+    height: 62px;
+    display: block;
+    margin-bottom: 29px;
+    margin-top: 154px;
+ }
+ .footersvg-box{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer-bottom ul{
+    padding: 0;
+    margin: 0;
+    margin-top: 85px;
+ }
+ .footer-bottom ul li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 2.1;
+ }
+ .footer-bottom ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
+
+ }
+ .feedback-box{
+    background-color: #585454;
+    margin-top: 66px;
+    width: 396px;
+    height: 182px;
+ }
+ .feedback-box p{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 36px;
+    padding-left: 20px;
+ }
+ .feedback-box button{
+    background-color: #FF7220;
+    border: none;
+    padding: 10px;
+    height: 55px;
+    font-weight: 700;
+    margin-left: 20px;
+    width: 249px;
+    color: #fff;
+    clip-path:polygon(10% -5%, 99% -19%, 87% 100%, 0% 100%);
+ }
+
+
+ 

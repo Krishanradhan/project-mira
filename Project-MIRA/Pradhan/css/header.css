@@ -1,0 +1,110 @@
+.headertop{
+    background-color: #2f2e33;
+    height: 68px;
+}
+.headertop ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-block: 20px;
+}
+.header-col-2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.header-col-2 li{
+    margin-right: 55px;
+}
+.header-col-1 li:nth-child(2){
+   margin-left: 20px;
+}
+.dropdown-topheader{
+    margin-inline: 10px;
+    font-weight: 700;
+}
+.headertop ul li{
+    list-style: none;
+}
+.headertop ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+nav{
+    background-color: #ff7220;
+    font-family: Inter; 
+    font-weight: 700;
+    font-size: 18px;
+}
+
+nav svg{
+    margin-top: 25px;
+}
+.navul{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.navul li{
+    list-style: none;
+    padding: 38px 51px;
+    display: flex;
+    align-items: center;
+}
+.navul li:hover {
+    background-color: #ffffff;
+}
+.navul li a{
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+}
+.navul li:hover a{
+    color: #ff7220;
+}
+
+.hoverline{
+    position: absolute;
+    top: 58px;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    background-color: #ff7220;
+
+}
+.hoverline:not(:nth-child(1)){
+    display: none;
+}
+.navul li:hover .hoverline{
+    display: block;
+}
+
+.headerbottom{
+    display: flex;
+    align-items: center;
+   height: 112px;
+    font-family: Inter; 
+   font-size: 18px;
+   font-weight: 700;
+}
+.headerbottom ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.headerbottom ul li{
+    list-style: none;
+}
+.headerbottom ul li svg{
+    margin-right: 15px;
+}
+ .headerbottom ul li:nth-child(2){
+    margin-left: 140px;
+}
+.headerbottom ul li:nth-child(3){
+    margin-left: 171px;
+}
